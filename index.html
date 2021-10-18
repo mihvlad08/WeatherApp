@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/2d2949535e.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Weather App</title>
+</head>
+<body>
+    <header> </header>
+
+    <div class="weather-form">
+        <input required='true' class="input-text" type="text" placeholder="Search for any city">
+        <button class="removeForm" type="submit">Search</button>
+    </div>
+    <!-- Weather-info should only appear when submit is clicked and data is loaded -->
+    <div class="weather-info">
+            <div class="bottom-info">
+                <div class="top-half"> <!-- Flexbox will work best here -->
+                    <div class="top-half-item item-1">
+                        <h4 class="text-bigger currentTemp">Now: </h4>
+                        <div class="high-and-low">
+                            <h4 class="highTemp">High: &nbsp; </h4>
+                            <h4 class="lowTemp">Low: &nbsp;</h4>
+                        </div>
+                    </div>
+                    <div class="top-half-item item-2">
+                        <div class="feels-like">
+
+                            <h4 class="feelsLike">Feels like: </h4>
+                            <h4 class="humidity">Humidity: </h4>
+                            <h4 class="windSpeed">Wind: </h4>
+
+                        </div>
+                        <div class="visibility-pressure">
+
+                            <h4 class="dewPt">Dew Pt: </h4>
+                            <h4 class="visibility">Visibility: </h4>
+                            <h4 class="pressure">Pressure: </h4>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="top-info">
+                    <!-- <i class="fas fa-cloud-sun"></i> Sun Icon -->
+                    <img class='icon' src="" alt="">
+                    <div class="city-and-description">
+                        <h4 class="city"></h4>
+                        <h4 class="description"></h3>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+
+
+    <footer> </footer>
+    <script src="/src/app.js"></script>
+</body>
+</html>
