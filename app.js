@@ -44,7 +44,7 @@ button.addEventListener("click", function fetchData() {
       city.innerHTML = nameValue;
       description.innerHTML = descValue;
       currentTemp.innerHTML = 'Current temperature: ' + tempValue  + "°C";
-      highTemp.innerHTML = 'High: s' + highTempValue +"°C";
+      highTemp.innerHTML = 'High: ' + highTempValue +"°C";
       lowTemp.innerHTML = 'Low: ' + lowTempValue + "°C";
       feelsLike.innerHTML = 'Feels like: ' + feelsLikeValue +  "°C";
       humidity.innerHTML = 'Humidity: ' + humidityValue + '%';
