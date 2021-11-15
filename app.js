@@ -50,7 +50,7 @@ button.addEventListener("click", function fetchData() {
       humidity.innerHTML = 'Humidity: ' + humidityValue + '%';
       windSpeed.innerHTML = 'Wind: ' + windValue + ' km/h';
       visibility.innerHTML = 'Visibility: ' + visibilityValue/1000 + ' km';
-      pressure.innerHTML = 'Pressure' + pressureValue + ' hPa';
+      pressure.innerHTML = 'Pressure: ' + pressureValue + ' hPa';
       icon.innerHTML.src = iconValue;
 
       input.value = "";
